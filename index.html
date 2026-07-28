@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>Project Eclipse Remastered v4.1</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="shell">
+<header class="hud">
+<div class="brand"><strong>PROJECT ECLIPSE</strong><span>Remastered v4.1 Flat Build</span></div>
+<div class="bars">
+<div><span>Vita</span><i><b id="hpBar"></b></i><em id="hpText">120/120</em></div>
+<div><span>Stamina</span><i><b id="stBar"></b></i><em id="stText">100/100</em></div>
+<div><span>Boss</span><i class="boss"><b id="bossBar"></b></i><em id="bossPhase">—</em></div>
+</div>
+<div class="stats">Anime <b id="souls">0</b> · Morti <b id="deaths">0</b> · Reliquie <b id="relics">0</b></div>
+</header>
+
+<section class="game-box">
+<canvas id="gameCanvas" width="960" height="540"></canvas>
+
+<div id="menu" class="overlay visible"><div class="panel">
+<p class="eyebrow">IL BOSCO SEPOLTO</p>
+<h1>Project Eclipse</h1>
+<p>Versione 4.1 semplificata per GitHub Pages.</p>
+<label>Difficoltà<select id="difficulty">
+<option value="normal">Modalità Normale</option>
+<option value="fractured">Modalità Frammentata</option>
+</select></label>
+<div class="fragmented"><b>Modalità Frammentata</b><span>Ogni morte riduce la vita massima del 5%. Il boss possiede tre fasi.</span></div>
+<button id="newGame">NUOVA PARTITA</button>
+<button id="continueGame" class="secondary">CONTINUA</button>
+<small>A/D o frecce · Spazio salto · J attacco · K schivata · Q Essenza · P pausa</small>
+</div></div>
+
+<div id="pause" class="overlay"><div class="panel small">
+<h2>Pausa</h2>
+<button id="resume">RIPRENDI</button>
+<button id="quit" class="secondary">SALVA E MENU</button>
+</div></div>
+
+<div id="notice"></div>
+<div class="mobile">
+<div><button data-key="ArrowLeft">◀</button><button data-key="ArrowRight">▶</button></div>
+<div><button data-key="Space">SALTO</button><button data-key="KeyJ">ATTACCO</button><button data-key="KeyK">SCHIVA</button><button data-key="KeyQ">ESSENZA</button></div>
+</div>
+</section>
+</main>
+<script src="game.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+PROJECT ECLIPSE REMASTERED v4.1 FLAT BUILD
+
+Questa versione NON usa cartelle.
+
+Nel repository devi vedere tutti questi file nella pagina principale:
+
+index.html
+style.css
+game.js
+kael-v41.png
+soldato-v41.png
+segugio-v41.png
+custode-v41.png
+bosco-v41.png
+tiles-v41.png
+reliquie-v41.png
+
+PASSAGGI:
+1. Elimina i vecchi file della versione 4.0.
+2. Estrai questo ZIP.
+3. Seleziona tutti i file estratti.
+4. Caricali insieme nella root del repository.
+5. Attendi GitHub Pages.
+6. Apri:
+https://njcntkb99c-sudo.github.io/project-eclipse-remastered/
