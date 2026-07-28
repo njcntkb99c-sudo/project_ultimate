@@ -1,0 +1,13 @@
+PROJECT ECLIPSE REMASTERED v5.0
+
+1. Elimina i vecchi file v4.1 dal repository.
+2. Estrai questo ZIP.
+3. Carica tutti i file nella root del repository.
+4. Non creare cartelle.
+5. Attendi GitHub Pages.
+
+Indirizzo:
+https://njcntkb99c-sudo.github.io/project-eclipse-remastered/
+
+Se tutto funziona, scrivi semplicemente: OK
+Dopo il tuo OK verrà preparata la versione 6.0.
